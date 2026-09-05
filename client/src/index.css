@@ -19,8 +19,8 @@ a { color: inherit; text-decoration: none; }
 .nav-link::after { content:''; position:absolute; left:0; bottom:-7px; width:0; height:2px; background:#c41224; transition:width .25s ease; }
 .nav-link:hover::after { width:100%; }
 .hero-section { position:relative; background:#f7f4ef; overflow:hidden; }
-.hero-section::after { content:''; position:absolute; z-index:0; inset:0; background:linear-gradient(90deg, #f7f4eff2 0%, #f7f4efcc 48%, #f7f4ef7a 74%, #f7f4ef2b 100%); pointer-events:none; }
-.hero-background { position:absolute; z-index:0; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 44%; opacity:.34; filter:saturate(.72) contrast(.94); }
+.hero-section::after { content:''; position:absolute; z-index:0; inset:0; background:linear-gradient(90deg, #f7f4efb8 0%, #f7f4ef72 28%, #f7f4ef2c 58%, #f7f4ef08 100%); pointer-events:none; }
+.hero-background { position:absolute; z-index:0; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 44%; opacity:.78; filter:saturate(.96) contrast(1.02); }
 .hero-grid { position:relative; z-index:1; display:grid; min-height:650px; grid-template-columns:1fr; align-items:center; gap:2rem; padding-top:5rem; padding-bottom:4rem; }
 @media (min-width: 900px) { .hero-grid { grid-template-columns: 1fr 1fr; padding-top:5rem; padding-bottom:5.5rem; } }
 .hero-copy { position:relative; z-index:2; }
