@@ -29,9 +29,9 @@ a { color: inherit; text-decoration: none; }
 .hero-copy h1 { margin:1.4rem 0 0; color:#191919; font-family:'Playfair Display', serif; font-size:clamp(4rem, 8vw, 7.8rem); font-weight:700; line-height:.87; letter-spacing:-.065em; }
 .hero-copy h1 em, .display-title em, .light-title em, blockquote em { color:#c41224; font-style:italic; font-weight:500; }
 .hero-lede { max-width:470px; margin-top:2rem; color:#625f5a; font-size:17px; line-height:1.6; }
-.primary-btn, .outline-btn { display:inline-flex; align-items:center; gap:10px; border-radius:999px; padding:14px 20px; font-size:13px; font-weight:800; transition:transform .2s ease, background .2s ease; }
+.primary-btn, .outline-btn { display:inline-flex; align-items:center; justify-content:center; gap:10px; border-radius:999px; padding:15px 24px; font-size:13px; font-weight:800; letter-spacing:.01em; transition:transform .2s ease, background .2s ease, box-shadow .2s ease; }
 .primary-btn { border:0; background:#c41224; color:#fff; box-shadow:0 10px 24px #c4122430; }
-.primary-btn:hover { background:#a80f1e; transform:translateY(-2px); }
+.primary-btn:hover { background:#a80f1e; transform:translateY(-2px); box-shadow:0 12px 28px #c4122440; }
 .text-btn { display:inline-flex; align-items:center; gap:11px; border:0; background:transparent; padding:14px 7px; color:#191919; font-size:13px; font-weight:800; }
 .text-btn span { color:#c41224; font-size:18px; }
 .hero-proof { display:flex; align-items:center; gap:13px; margin-top:3.5rem; color:#827d76; font-size:11px; line-height:1.4; }
@@ -57,6 +57,10 @@ a { color: inherit; text-decoration: none; }
 @media (min-width: 768px) { .gallery-grid { grid-template-columns:1.3fr .7fr 1fr; grid-auto-rows:210px; }.gallery-item.md\:col-span-2 { grid-column:span 2; }.gallery-item.md\:row-span-2 { grid-row:span 2; } }
 .quote-section { padding:7rem 0; background:#d49a21; }.quote-section blockquote { margin:0; font-family:'Playfair Display',serif; font-size:clamp(3rem,6vw,6.8rem); font-weight:700; line-height:.86; letter-spacing:-.06em; }.quote-section cite { display:block; margin-top:1.7rem; color:#5c4218; font-family:'DM Sans',sans-serif; font-size:11px; font-style:normal; font-weight:800; letter-spacing:.15em; text-transform:uppercase; }
 .contact-section { background:#f7f4ef; }.contact-panel { display:grid; gap:3rem; padding:4rem; background:#191919; color:#fff; background-image:radial-gradient(circle at 95% 5%, #c412243b, transparent 25%); }.contact-details { display:flex; flex-direction:column; border-top:1px solid #fff2; }.contact-details a, .contact-address { display:flex; align-items:center; gap:16px; border-bottom:1px solid #fff2; padding:21px 0; }.contact-details a svg:first-child, .contact-address svg { color:#d49a21; }.contact-details a > svg:last-child { margin-left:auto; color:#ffffff66; }.contact-details span { display:flex; flex:1; flex-direction:column; font-size:14px; line-height:1.4; }.contact-details small { margin-bottom:3px; color:#ffffff66; font-size:9px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }.contact-address { align-items:flex-start; color:#fff; font-size:14px; }.footer { background:#111; color:#fff; }.footer a { transition:color .2s; }.footer a:hover { color:#d49a21; }.footer img { max-width:190px; }
+.outline-btn:hover { background:#c41224; border-color:#c41224; transform:translateY(-2px); box-shadow:0 12px 28px #c4122440; }
+.social-links { display:flex; gap:9px; margin-top:20px; }
+.social-links a { display:grid; width:36px; height:36px; place-items:center; border:1px solid #ffffff2e; border-radius:50%; color:#fff; transition:color .2s, background .2s, border-color .2s, transform .2s; }
+.social-links a:hover { border-color:#d49a21; background:#d49a21; color:#191919; transform:translateY(-2px); }.social-links svg { width:16px; height:16px; }
  .whatsapp-float { position:fixed; z-index:60; right:24px; bottom:24px; display:inline-flex; align-items:center; gap:9px; border:2px solid #fff; border-radius:999px; background:#20b65a; padding:13px 18px 13px 14px; color:#fff; box-shadow:0 12px 28px #0b7b3c55; font-size:13px; font-weight:800; transition:transform .2s ease, background .2s ease; }
 .whatsapp-float:hover { background:#159447; transform:translateY(-3px); }.whatsapp-float svg { width:22px; height:22px; fill:currentColor; }
 @media (min-width: 900px) { .contact-panel { grid-template-columns:1fr 1fr; padding:5rem; } }
