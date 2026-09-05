@@ -77,9 +77,9 @@ export default function Home() {
       </header>
 
       <section id="inicio" className="hero-section">
+        <img className="hero-background" src={storage + "IMG-20260905-WA0088_c0b74896.jpg"} alt="Equipa da Criartes no espaço editorial" aria-hidden="true" />
         <div className="hero-grid container">
           <div className="hero-copy">
-            <img className="hero-underlay" src={storage + "IMG-20260905-WA0022_de35d38f.jpg"} alt="" aria-hidden="true" />
             <div className="eyebrow"><span className="eyebrow-dot" /> Gráfica · Editora · Comunicação</div>
             <h1>Ideias que<br /><em>ganham forma.</em></h1>
             <p className="hero-lede">Da primeira palavra à última impressão, damos corpo às ideias de autores, empresas e instituições.</p>
