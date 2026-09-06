@@ -70,12 +70,12 @@ export default function Home() {
             <img src={storage + "criartes-logo-transparent_d46c760b.png"} alt="Criartes Gráfica e Editora" className="h-12 w-auto object-contain" />
           </a>
           <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
-            {[['A Criartes','sobre'],['Editora','editora'],['Gráfica','grafica'],['Portfólio','portfolio']].map(([label, id]) => <a key={id} href={'#'+id} className="nav-link">{label}</a>)}
+            {[['A Criartes','sobre'],['Preços','precos'],['Editora','editora'],['Gráfica','grafica'],['Portfólio','portfolio']].map(([label, id]) => <a key={id} href={'#'+id} className="nav-link">{label}</a>)}
           </nav>
           <a href="https://wa.me/244955646006" target="_blank" rel="noreferrer" className="hidden rounded-full bg-[#c41224] px-5 py-3 text-sm font-bold text-white shadow-lg shadow-red-900/15 transition hover:-translate-y-0.5 hover:bg-[#a80f1e] sm:inline-flex">Fale connosco</a>
           <button aria-label={menuOpen ? "Fechar menu" : "Abrir menu"} className="rounded-full border border-black/10 p-3 lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}</button>
         </div>
-        {menuOpen && <div className="border-t border-black/10 bg-[#f7f4ef] px-6 py-5 lg:hidden"><div className="container flex flex-col gap-4">{[['A Criartes','sobre'],['Editora','editora'],['Gráfica','grafica'],['Portfólio','portfolio'],['Contactos','contactos']].map(([label,id]) => <a key={id} href={'#'+id} onClick={closeMenu} className="text-lg font-semibold">{label}</a>)}</div></div>}
+        {menuOpen && <div className="border-t border-black/10 bg-[#f7f4ef] px-6 py-5 lg:hidden"><div className="container flex flex-col gap-4">{[['A Criartes','sobre'],['Preços','precos'],['Editora','editora'],['Gráfica','grafica'],['Portfólio','portfolio'],['Contactos','contactos']].map(([label,id]) => <a key={id} href={'#'+id} onClick={closeMenu} className="text-lg font-semibold">{label}</a>)}</div></div>}
       </header>
 
       <section id="inicio" className="hero-section">
@@ -97,6 +97,8 @@ export default function Home() {
         </div>
         <div className="hero-marquee"><span>CRIARTES</span><span>EDIÇÃO</span><span>IMPRESSÃO</span><span>COMUNICAÇÃO</span><span>CRIARTES</span><span>EDIÇÃO</span></div>
       </section>
+
+      <section id="precos" className="price-highlight"><div className="container"><div className="price-card"><div className="price-copy"><div className="section-kicker light">Oferta em destaque</div><h2>Impressão de livros<br /><em>a partir de 3.900 Kz.</em></h2><p>Escolha o papel ideal para a sua obra: Offset económico ou Pólen premium. Consulte a tabela completa e fale directamente com a nossa equipa.</p><a className="price-cta" href="https://wa.me/244948595707?text=Olá%20Criartes,%20vi%20a%20tabela%20de%20preços%20de%20livros%20e%20gostaria%20de%20pedir%20um%20orçamento." target="_blank" rel="noreferrer">Pedir orçamento · 948 595 707</a></div><div className="price-image-wrap"><img src={storage + "IMG-20260905-WA0019_5690507b.jpg"} alt="Tabela de preços para impressão de livros Criartes" /></div></div></div></section>
 
       <section id="sobre" className="section-pad bg-[#f7f4ef]"><div className="container grid gap-14 lg:grid-cols-[.8fr_1.2fr] lg:items-end"><div><div className="section-kicker">01 / A nossa essência</div><h2 className="display-title">Mais do que imprimir.<br /><span>Dar vida.</span></h2></div><div className="max-w-2xl"><p className="large-copy">Na Criartes, transformamos ideias em realidade com soluções completas de alta qualidade em edição, impressão, comunicação e marketing.</p><p className="body-copy mt-5">Embora cubramos todo o espectro gráfico e visual da sua marca, a nossa grande vocação e especialidade é a Editora. Apoiamos autores, académicos e instituições a dar vida aos seus livros — com cuidado, método e visão.</p><button className="inline-link mt-8" onClick={() => scrollTo("contactos")}>Fale sobre o seu projecto</button></div></div></section>
 
