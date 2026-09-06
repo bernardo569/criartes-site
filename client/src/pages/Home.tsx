@@ -29,8 +29,7 @@ const gallery = [
 ];
 
 const completedProjects = [
-  { src: storage + "IMG-20260905-WA0000_73b4edf4.webp", label: "Projecto realizado 01" },
-  { src: storage + "IMG-20260905-WA0001(1)_c83626bf.webp", label: "Projecto realizado 02" },
+  { src: storage + "IMG-20260905-WA0006(1)_5be141b4.webp", label: "Espaços que inspiram", cls: "" },
 ];
 
 const graphicServices = [
