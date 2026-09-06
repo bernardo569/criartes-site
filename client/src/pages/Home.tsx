@@ -21,34 +21,16 @@ import {
 const storage = "/manus-storage/";
 
 const gallery = [
-  { src: storage + "IMG-20260905-WA0000_73b4edf4.webp", label: "Projecto realizado 01", cls: "md:col-span-2 md:row-span-2" },
-  { src: storage + "IMG-20260905-WA0001(1)_c83626bf.webp", label: "Projecto realizado 02", cls: "md:row-span-2" },
-  { src: storage + "IMG-20260905-WA0004_4c68bbb4.webp", label: "Projecto realizado 03", cls: "" },
-  { src: storage + "IMG-20260905-WA0006(1)_5be141b4.webp", label: "Projecto realizado 04", cls: "" },
-  { src: storage + "IMG-20260905-WA0008_c3d9380b.webp", label: "Projecto realizado 05", cls: "md:col-span-2" },
+  { src: storage + "IMG-20260905-WA0000_73b4edf4.webp", label: "Capas e edição editorial", cls: "md:col-span-2 md:row-span-2" },
+  { src: storage + "IMG-20260905-WA0001(1)_c83626bf.webp", label: "Autor em destaque", cls: "md:row-span-2" },
+  { src: storage + "IMG-20260905-WA0004_4c68bbb4.webp", label: "Colecções e poesia", cls: "" },
+  { src: storage + "IMG-20260905-WA0006(1)_5be141b4.webp", label: "Espaços que inspiram", cls: "" },
+  { src: storage + "IMG-20260905-WA0008_c3d9380b.webp", label: "Publicações institucionais", cls: "md:col-span-2" },
 ];
 
 const completedProjects = [
   { src: storage + "IMG-20260905-WA0000_73b4edf4.webp", label: "Projecto realizado 01" },
   { src: storage + "IMG-20260905-WA0001(1)_c83626bf.webp", label: "Projecto realizado 02" },
-  { src: storage + "IMG-20260905-WA0004_4c68bbb4.webp", label: "Projecto realizado 03" },
-  { src: storage + "IMG-20260905-WA0006(1)_5be141b4.webp", label: "Projecto realizado 04" },
-  { src: storage + "IMG-20260905-WA0008_c3d9380b.webp", label: "Projecto realizado 05" },
-  { src: storage + "IMG-20260905-WA0009(1)_948191c7.webp", label: "Projecto realizado 06" },
-  { src: storage + "IMG-20260905-WA0010_d26e7f05.webp", label: "Projecto realizado 07" },
-  { src: storage + "IMG-20260905-WA0013_13c0afd8.webp", label: "Projecto realizado 08" },
-  { src: storage + "IMG-20260905-WA0014_d731c6b2.webp", label: "Projecto realizado 09" },
-  { src: storage + "IMG-20260905-WA0015_aeaad900.webp", label: "Projecto realizado 10" },
-  { src: storage + "IMG-20260905-WA0016_6bc8b504.webp", label: "Projecto realizado 11" },
-  { src: storage + "IMG-20260905-WA0019_7a10e255.webp", label: "Projecto realizado 12" },
-  { src: storage + "IMG-20260905-WA0021_71ff2f4a.webp", label: "Projecto realizado 13" },
-  { src: storage + "IMG-20260905-WA0022_d7bc0234.webp", label: "Projecto realizado 14" },
-  { src: storage + "IMG-20260905-WA0023(1)_3dc18ff6.webp", label: "Projecto realizado 15" },
-  { src: storage + "IMG-20260905-WA0024(1)_156d8608.webp", label: "Projecto realizado 16" },
-  { src: storage + "IMG-20260905-WA0025_b20981e8.webp", label: "Projecto realizado 17" },
-  { src: storage + "IMG-20260905-WA0030_d4d13de6.webp", label: "Projecto realizado 18" },
-  { src: storage + "IMG-20260905-WA0031(1)_b8218648.webp", label: "Projecto realizado 19" },
-  { src: storage + "IMG-20260905-WA0032_c8594e73.webp", label: "Projecto realizado 20" },
 ];
 
 const graphicServices = [
