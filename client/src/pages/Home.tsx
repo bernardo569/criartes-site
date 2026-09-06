@@ -28,6 +28,74 @@ const gallery = [
   { src: storage + "IMG-20260905-WA0024_f2efd145.jpg", label: "Publicações institucionais", cls: "md:col-span-2" },
 ];
 
+const completedProjects = [
+  { src: storage + "IMG-20260905-WA0000_e81ca732.jpg", label: "Projecto realizado 01" },
+  { src: storage + "IMG-20260905-WA0001(1)_02dc0cc8.jpg", label: "Projecto realizado 02" },
+  { src: storage + "IMG-20260905-WA0001_3c5a1760.jpg", label: "Projecto realizado 03" },
+  { src: storage + "IMG-20260905-WA0004_95f41b47.jpg", label: "Projecto realizado 04" },
+  { src: storage + "IMG-20260905-WA0006(1)_9c0aff63.jpg", label: "Projecto realizado 05" },
+  { src: storage + "IMG-20260905-WA0006_88225d19.jpg", label: "Projecto realizado 06" },
+  { src: storage + "IMG-20260905-WA0008_57689332.jpg", label: "Projecto realizado 07" },
+  { src: storage + "IMG-20260905-WA0009(1)_0788cf27.jpg", label: "Projecto realizado 08" },
+  { src: storage + "IMG-20260905-WA0010_96db0ba8.jpg", label: "Projecto realizado 09" },
+  { src: storage + "IMG-20260905-WA0013_66bbd060.jpg", label: "Projecto realizado 10" },
+  { src: storage + "IMG-20260905-WA0014_304fc95a.jpg", label: "Projecto realizado 11" },
+  { src: storage + "IMG-20260905-WA0015_5364f4e6.jpg", label: "Projecto realizado 12" },
+  { src: storage + "IMG-20260905-WA0016_24e95788.jpg", label: "Projecto realizado 13" },
+  { src: storage + "IMG-20260905-WA0019_9b7ea994.jpg", label: "Projecto realizado 14" },
+  { src: storage + "IMG-20260905-WA0021_98b5acd6.jpg", label: "Projecto realizado 15" },
+  { src: storage + "IMG-20260905-WA0022_c8dda490.jpg", label: "Projecto realizado 16" },
+  { src: storage + "IMG-20260905-WA0023(1)_c00026b1.jpg", label: "Projecto realizado 17" },
+  { src: storage + "IMG-20260905-WA0023_60f3cfe6.jpg", label: "Projecto realizado 18" },
+  { src: storage + "IMG-20260905-WA0024(1)_be29429b.jpg", label: "Projecto realizado 19" },
+  { src: storage + "IMG-20260905-WA0024_19b85f6a.jpg", label: "Projecto realizado 20" },
+  { src: storage + "IMG-20260905-WA0025_90707722.jpg", label: "Projecto realizado 21" },
+  { src: storage + "IMG-20260905-WA0030_72cd693f.jpg", label: "Projecto realizado 22" },
+  { src: storage + "IMG-20260905-WA0031(1)_a2e73302.jpg", label: "Projecto realizado 23" },
+  { src: storage + "IMG-20260905-WA0032_1fc0dbb6.jpg", label: "Projecto realizado 24" },
+  { src: storage + "IMG-20260905-WA0034_6e492008.jpg", label: "Projecto realizado 25" },
+  { src: storage + "IMG-20260905-WA0036(1)_46c1413d.jpg", label: "Projecto realizado 26" },
+  { src: storage + "IMG-20260905-WA0036_4d249b44.jpg", label: "Projecto realizado 27" },
+  { src: storage + "IMG-20260905-WA0037_30409b28.jpg", label: "Projecto realizado 28" },
+  { src: storage + "IMG-20260905-WA0040_09c5688f.jpg", label: "Projecto realizado 29" },
+  { src: storage + "IMG-20260905-WA0041_c9dbbf2f.jpg", label: "Projecto realizado 30" },
+  { src: storage + "IMG-20260905-WA0044_f573f7a1.jpg", label: "Projecto realizado 31" },
+  { src: storage + "IMG-20260905-WA0049(1)_b76f8bbb.jpg", label: "Projecto realizado 32" },
+  { src: storage + "IMG-20260905-WA0050_a18b640c.jpg", label: "Projecto realizado 33" },
+  { src: storage + "IMG-20260905-WA0054_2433e7ee.jpg", label: "Projecto realizado 34" },
+  { src: storage + "IMG-20260905-WA0056(1)_ece0b574.jpg", label: "Projecto realizado 35" },
+  { src: storage + "IMG-20260905-WA0056_8574d270.jpg", label: "Projecto realizado 36" },
+  { src: storage + "IMG-20260905-WA0057_27c901c0.jpg", label: "Projecto realizado 37" },
+  { src: storage + "IMG-20260905-WA0059_90d5ce9f.jpg", label: "Projecto realizado 38" },
+  { src: storage + "IMG-20260905-WA0060_ad0a6b6c.jpg", label: "Projecto realizado 39" },
+  { src: storage + "IMG-20260905-WA0061_131d70a1.jpg", label: "Projecto realizado 40" },
+  { src: storage + "IMG-20260905-WA0062(1)_fdf50fa2.jpg", label: "Projecto realizado 41" },
+  { src: storage + "IMG-20260905-WA0062_be33a61e.jpg", label: "Projecto realizado 42" },
+  { src: storage + "IMG-20260905-WA0064_9d3c00b2.jpg", label: "Projecto realizado 43" },
+  { src: storage + "IMG-20260905-WA0068_bba946cc.jpg", label: "Projecto realizado 44" },
+  { src: storage + "IMG-20260905-WA0069_dc086a65.jpg", label: "Projecto realizado 45" },
+  { src: storage + "IMG-20260905-WA0070(1)_6ae496cf.jpg", label: "Projecto realizado 46" },
+  { src: storage + "IMG-20260905-WA0070_68d64fcd.jpg", label: "Projecto realizado 47" },
+  { src: storage + "IMG-20260905-WA0071_1c3f9479.jpg", label: "Projecto realizado 48" },
+  { src: storage + "IMG-20260905-WA0072(1)_6d84e5b5.jpg", label: "Projecto realizado 49" },
+  { src: storage + "IMG-20260905-WA0074_86d04221.jpg", label: "Projecto realizado 50" },
+  { src: storage + "IMG-20260905-WA0075_344e44c5.jpg", label: "Projecto realizado 51" },
+  { src: storage + "IMG-20260905-WA0077_a35d40ad.jpg", label: "Projecto realizado 52" },
+  { src: storage + "IMG-20260905-WA0082_c30a5dd7.jpg", label: "Projecto realizado 53" },
+  { src: storage + "IMG-20260905-WA0083(1)_e21753ef.jpg", label: "Projecto realizado 54" },
+  { src: storage + "IMG-20260905-WA0086(1)_b2b95ea7.jpg", label: "Projecto realizado 55" },
+  { src: storage + "IMG-20260905-WA0088(1)_eb7e0709.jpg", label: "Projecto realizado 56" },
+  { src: storage + "IMG-20260905-WA0088_9d7a0b86.jpg", label: "Projecto realizado 57" },
+  { src: storage + "IMG-20260905-WA0089_46808a3c.jpg", label: "Projecto realizado 58" },
+  { src: storage + "IMG-20260905-WA0090_1e9ec751.jpg", label: "Projecto realizado 59" },
+  { src: storage + "IMG-20260905-WA0092(1)_41ce26b9.jpg", label: "Projecto realizado 60" },
+  { src: storage + "IMG-20260905-WA0092_2e838d59.jpg", label: "Projecto realizado 61" },
+  { src: storage + "IMG-20260905-WA0093_407309fa.jpg", label: "Projecto realizado 62" },
+  { src: storage + "IMG-20260905-WA0094_e9731411.jpg", label: "Projecto realizado 63" },
+  { src: storage + "IMG-20260905-WA0095_806c4706.jpg", label: "Projecto realizado 64" },
+  { src: storage + "IMG-20260905-WA0097_9a34f5bd.jpg", label: "Projecto realizado 65" },
+];
+
 const graphicServices = [
   "Criação de arte e identidade visual",
   "Impressão, fotocópia e fotografia",
@@ -59,6 +127,8 @@ function scrollTo(id: string) {
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [projectsOpen, setProjectsOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState<string | null>(null);
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -106,10 +176,11 @@ export default function Home() {
 
       <section id="grafica" className="section-pad bg-[#efeae1]"><div className="container"><div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><div className="section-kicker">03 / Soluções</div><h2 className="display-title">Tudo o que a sua<br /><span>marca precisa.</span></h2></div><p className="max-w-sm body-copy">Do pequeno formato ao grande impacto. Produzimos materiais que fazem a sua marca ser vista, lembrada e escolhida.</p></div><div className="service-grid">{graphicServices.map((service, index) => <div className="service-card" key={service}><span className="service-number">{String(index + 1).padStart(2,'0')}</span><h3>{service}</h3><ChevronDown className="h-4 w-4 text-[#c41224] transition group-hover:rotate-[-90deg]" /></div>)}</div></div></section>
 
-      <section id="portfolio" className="section-pad bg-[#191919] text-white"><div className="container"><div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><div className="section-kicker light">04 / Feito na Criartes</div><h2 className="display-title light-title">Projectos que<br /><em>falam por si.</em></h2></div><p className="max-w-sm light-copy">Um olhar sobre trabalhos que ganharam forma nas nossas mãos.</p></div><div className="gallery-grid">{gallery.map((item) => <figure className={'gallery-item '+item.cls} key={item.src}><img src={item.src} alt={item.label} /><figcaption><span>{item.label}</span></figcaption></figure>)}</div></div></section>
+      <section id="portfolio" className="section-pad bg-[#191919] text-white"><div className="container"><div className="mb-12 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><div className="section-kicker light">04 / Feito na Criartes</div><h2 className="display-title light-title">Projectos que<br /><em>falam por si.</em></h2></div><p className="max-w-sm light-copy">Um olhar sobre trabalhos que ganharam forma nas nossas mãos.</p></div><div className="gallery-grid">{gallery.map((item) => <figure className={'gallery-item '+item.cls} key={item.src} onClick={() => setSelectedProject(item.src)}><img src={item.src} alt={item.label} loading="lazy" /><figcaption><span>{item.label}</span></figcaption></figure>)}</div><button className="projects-toggle" onClick={() => setProjectsOpen((open) => !open)}>{projectsOpen ? "Fechar projectos" : "Ver projectos já feitos"}<span>{projectsOpen ? "−" : "+"}</span></button>{projectsOpen && <div className="projects-expanded">{completedProjects.map((item) => <button className="project-thumb" key={item.src} onClick={() => setSelectedProject(item.src)}><img src={item.src} alt={item.label} loading="lazy" /><span>{item.label}</span></button>)}</div>}</div></section>
 
       <section className="quote-section"><div className="container grid gap-8 lg:grid-cols-[1fr_2fr] lg:items-center"><Quote className="h-14 w-14 text-[#c41224]" /><blockquote>“O próximo livro<br /><em>pode ser o seu.</em>”<cite>— O compromisso Criartes</cite></blockquote></div></section>
 
+{selectedProject && <div className="project-lightbox" role="dialog" aria-modal="true" aria-label="Projecto ampliado" onClick={() => setSelectedProject(null)}><button className="lightbox-close" onClick={() => setSelectedProject(null)} aria-label="Fechar">×</button><img src={selectedProject} alt="Projecto realizado Criartes" onClick={(event) => event.stopPropagation()} /></div>}
       <section id="contactos" className="contact-section section-pad"><div className="container"><div className="contact-panel"><div><div className="section-kicker light">05 / Vamos conversar</div><h2 className="display-title light-title">Tem uma ideia?<br /><em>Vamos criar.</em></h2><p className="light-copy mt-6 max-w-md">Conte-nos o que imagina. A nossa equipa está pronta para transformar o seu projecto numa peça que se destaca.</p></div><div className="contact-details"><a href="https://wa.me/244955646006" target="_blank" rel="noreferrer"><MessageCircle /> <span><small>WhatsApp / Telefone</small>955 646 006 · 948 595 707</span></a><a href="mailto:Criartesquadrodigital@gmail.com"><Mail /> <span><small>E-mail</small>Criartesquadrodigital@gmail.com</span></a><div className="contact-address"><MapPin /> <span><small>Onde estamos</small>Bairro Prenda, lado oposto da Samba,<br />defronte à Suave — Luanda</span></div></div></div></div></section>
 
       <footer className="footer"><div className="container flex flex-col gap-8 py-10 md:flex-row md:items-end md:justify-between"><div><img src={storage + "criartes-logo-transparent_d46c760b.png"} alt="Criartes" className="h-14 w-auto brightness-0 invert" /><p className="mt-4 text-sm text-white/55">Gráfica e Editora · Qualidade em primeiro lugar.</p><div className="social-links" aria-label="Redes sociais"><a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram /></a><a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook /></a><a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin /></a></div></div><div className="flex flex-wrap gap-5 text-sm text-white/60"><a href="#sobre">A Criartes</a><a href="#editora">Editora</a><a href="#grafica">Gráfica</a><a href="#portfolio">Portfólio</a></div><p className="text-xs text-white/35">© {new Date().getFullYear()} Criartes. Todos os direitos reservados.</p></div></footer>
