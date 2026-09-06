@@ -36,7 +36,6 @@ const completedProjects = [
   { src: storage + "IMG-20260905-WA0014_d731c6b2.webp", label: "Projecto realizado 09" },
   { src: storage + "IMG-20260905-WA0015_aeaad900.webp", label: "Projecto realizado 10" },
   { src: storage + "IMG-20260905-WA0016_6bc8b504.webp", label: "Projecto realizado 11" },
-  { src: storage + "IMG-20260905-WA0019_7a10e255.webp", label: "Projecto realizado 12" },
   { src: storage + "IMG-20260905-WA0021_71ff2f4a.webp", label: "Projecto realizado 13" },
   { src: storage + "IMG-20260905-WA0022_d7bc0234.webp", label: "Projecto realizado 14" },
   { src: storage + "IMG-20260905-WA0023(1)_3dc18ff6.webp", label: "Projecto realizado 15" },
