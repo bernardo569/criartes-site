@@ -105,7 +105,7 @@ export default function Home() {
       </header>
 
       <section id="inicio" className="hero-section">
-        <img className="hero-background" src={storage + "IMG-20260905-WA0088_c0b74896.jpg"} alt="Equipa da Criartes no espaço editorial" aria-hidden="true" />
+        <img className="hero-background" src={storage + "hero-criartes_a58dba9b.webp"} alt="Equipa da Criartes no espaço editorial" aria-hidden="true" fetchPriority="high" decoding="async" />
         <div className="hero-grid container">
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-dot" /> Gráfica · Editora · Comunicação</div>
