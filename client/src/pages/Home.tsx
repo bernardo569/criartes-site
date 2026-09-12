@@ -13,7 +13,7 @@ import {
   X,
 } from "lucide-react";
 
-const storage = "/assets/";
+const storage = `${import.meta.env.BASE_URL}assets/`;
 
 const gallery: Array<{ src: string; label: string; cls: string }> = [
   { src: storage + "portfolio/IMG-20260905-WA0006(1).webp", label: "Espaços que inspiram", cls: "" },

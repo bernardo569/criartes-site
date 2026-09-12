@@ -204,9 +204,11 @@ function vitePluginStorageProxy(): Plugin {
 }
 
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
+const isGithubPages = process.env.GITHUB_ACTIONS === "true";
 
 export default defineConfig({
   plugins,
+  base: isGithubPages ? "/criartes-site/" : "/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
