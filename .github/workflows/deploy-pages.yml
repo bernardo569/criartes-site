@@ -43,6 +43,8 @@ jobs:
         with:
           name: github-pages
           path: site
+      - name: Extract Pages artifact
+        run: tar -xf site/artifact.tar -C site && rm site/artifact.tar
       - name: Publish gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
