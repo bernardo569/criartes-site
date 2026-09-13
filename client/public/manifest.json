@@ -1,0 +1,17 @@
+{
+  "name": "Criartes — Gráfica e Editora",
+  "short_name": "Criartes",
+  "description": "Criartes — Gráfica e Editora em Luanda.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#191919",
+  "theme_color": "#191919",
+  "icons": [
+    {
+      "src": "/assets/criartes-logo-transparent.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
