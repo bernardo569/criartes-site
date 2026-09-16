@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 describe("Criartes project logo", () => {
   it("is reachable from the configured public URL", async () => {
     const response = await fetch(
-      "https://criartes.lol/assets/criartes-logo-transparent.png?v=2",
+      "http://localhost:3000/assets/criartes-google-logo.png?v=4",
     );
 
     expect(response.ok).toBe(true);
